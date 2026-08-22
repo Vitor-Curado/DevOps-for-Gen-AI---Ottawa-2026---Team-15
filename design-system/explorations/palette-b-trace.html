@@ -1,0 +1,28 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Palette B — Trace</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0b0d0c;--bg-2:#141817;--line:#252b29;--fg:#eaf0ec;--muted:#8a958f;--lime:#c3f53c;--cyan:#4ad9d9;--flag:#ff5d47;--ok:#5be08a}
+*{box-sizing:border-box;margin:0}body{font-family:'Space Grotesk',sans-serif;background:var(--bg);color:var(--fg);padding:36px;display:grid;gap:28px}
+.row{display:flex;border-radius:4px;overflow:hidden;border:1px solid var(--line)}
+.sw{flex:1;height:92px;padding:10px;display:flex;align-items:flex-end;font-family:'JetBrains Mono',monospace;font-size:10px}
+.lbl{font-size:11px;text-transform:uppercase;letter-spacing:.14em;color:var(--muted);margin-bottom:8px;font-family:'JetBrains Mono',monospace}
+.card{background:var(--bg-2);border:1px solid var(--line);border-radius:4px;padding:20px;display:grid;gap:14px}
+.claim{font-size:15px;line-height:1.65;color:#d5ded8}
+mark{background:rgba(255,93,71,.16);color:#ffb3a6;border-bottom:1px solid var(--flag);padding:1px 2px}
+.pill{display:inline-flex;gap:6px;font-family:'JetBrains Mono',monospace;font-size:11px;padding:4px 9px;border-radius:3px;border:1px solid}
+.pill.f{color:var(--flag);border-color:rgba(255,93,71,.4);background:rgba(255,93,71,.08)}
+.pill.v{color:var(--ok);border-color:rgba(91,224,138,.35);background:rgba(91,224,138,.07)}
+.btn{background:var(--lime);color:#0b0d0c;border:0;border-radius:3px;padding:9px 16px;font:500 13px 'Space Grotesk';cursor:pointer}
+.btn.g{background:transparent;color:var(--fg);border:1px solid var(--line)}
+h2{font-size:20px;font-weight:700;letter-spacing:-.02em}
+</style></head><body>
+<div><div class="lbl">Trace — dark terminal · lime · coral flag</div><h2>Technical, high-contrast, instrument panel</h2></div>
+<div><div class="lbl">Core</div><div class="row">
+<div class="sw" style="background:#0b0d0c">#0B0D0C</div><div class="sw" style="background:#141817">#141817</div><div class="sw" style="background:#252b29">#252B29</div><div class="sw" style="background:#8a958f;color:#0b0d0c">#8A958F</div><div class="sw" style="background:#eaf0ec;color:#0b0d0c">#EAF0EC</div></div></div>
+<div><div class="lbl">Semantic</div><div class="row">
+<div class="sw" style="background:#c3f53c;color:#0b0d0c">#C3F53C</div><div class="sw" style="background:#4ad9d9;color:#0b0d0c">#4AD9D9</div><div class="sw" style="background:#ff5d47;color:#0b0d0c">#FF5D47</div><div class="sw" style="background:#5be08a;color:#0b0d0c">#5BE08A</div></div></div>
+<div class="card">
+<div style="display:flex;gap:8px"><span class="pill f">2 unsupported</span><span class="pill v">4 verified</span></div>
+<p class="claim">The model states that the 2024 report was published in March and that <mark>revenue grew 41% year over year</mark>, citing a figure that does not appear in any source document.</p>
+<div style="display:flex;gap:8px"><button class="btn">Review claim</button><button class="btn g">Dismiss</button></div>
+</div></body></html>
