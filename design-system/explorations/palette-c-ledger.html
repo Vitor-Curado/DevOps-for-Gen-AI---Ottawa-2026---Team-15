@@ -1,0 +1,27 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Palette C — Ledger</title>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Inter+Tight:wght@400;500;600&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#f4f1ea;--surface:#fffdf8;--ink:#231f1c;--line:#ddd6c8;--muted:#77706a;--oxblood:#8c2f2a;--teal:#1f6b6b;--indigo:#2f3d8c}
+*{box-sizing:border-box;margin:0}body{font-family:'Inter Tight',sans-serif;background:var(--paper);color:var(--ink);padding:36px;display:grid;gap:28px}
+.row{display:flex;border-radius:2px;overflow:hidden;border:1px solid var(--line)}
+.sw{flex:1;height:92px;padding:10px;display:flex;align-items:flex-end;font-family:'IBM Plex Mono',monospace;font-size:10px}
+.lbl{font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);margin-bottom:8px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:2px;padding:22px;display:grid;gap:14px}
+.claim{font-size:16px;line-height:1.6}
+mark{background:transparent;color:var(--oxblood);border-bottom:2px solid var(--oxblood);padding:0}
+.pill{display:inline-flex;gap:6px;font-family:'IBM Plex Mono',monospace;font-size:11px;padding:3px 8px;border:1px solid var(--line);border-radius:2px;background:#fff}
+.pill.f{color:var(--oxblood);border-color:rgba(140,47,42,.35)}.pill.v{color:var(--teal);border-color:rgba(31,107,107,.3)}
+.btn{background:var(--oxblood);color:#fffdf8;border:0;border-radius:2px;padding:9px 16px;font:500 13px 'Inter Tight';cursor:pointer}
+.btn.g{background:transparent;color:var(--ink);border:1px solid var(--line)}
+h2{font-family:'Instrument Serif',serif;font-size:26px;font-weight:400}
+</style></head><body>
+<div><div class="lbl">Ledger — paper · oxblood · teal</div><h2>Editorial and archival, serif display</h2></div>
+<div><div class="lbl">Core</div><div class="row">
+<div class="sw" style="background:#231f1c;color:#f4f1ea">#231F1C</div><div class="sw" style="background:#77706a;color:#fff">#77706A</div><div class="sw" style="background:#ddd6c8">#DDD6C8</div><div class="sw" style="background:#f4f1ea">#F4F1EA</div><div class="sw" style="background:#fffdf8">#FFFDF8</div></div></div>
+<div><div class="lbl">Semantic</div><div class="row">
+<div class="sw" style="background:#8c2f2a;color:#fff">#8C2F2A</div><div class="sw" style="background:#1f6b6b;color:#fff">#1F6B6B</div><div class="sw" style="background:#2f3d8c;color:#fff">#2F3D8C</div><div class="sw" style="background:#b8860b;color:#fff">#B8860B</div></div></div>
+<div class="card">
+<div style="display:flex;gap:8px"><span class="pill f">2 unsupported</span><span class="pill v">4 verified</span></div>
+<p class="claim">The model states that the 2024 report was published in March and that <mark>revenue grew 41% year over year</mark>, citing a figure that does not appear in any source document.</p>
+<div style="display:flex;gap:8px"><button class="btn">Review claim</button><button class="btn g">Dismiss</button></div>
+</div></body></html>
