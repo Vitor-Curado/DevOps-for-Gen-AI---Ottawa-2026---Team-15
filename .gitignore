@@ -1,1 +1,11 @@
 frontend/node_modules/.package-lock.json
+.git-sidecar-token
+.local/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.coverage
+.env
+
